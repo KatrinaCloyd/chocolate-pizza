@@ -1,14 +1,18 @@
 import './App.css';
 import MyHeader from './header.js';
-import MyBody from './body.js';
+import MyImageSection from './ImageSection.js';
+import MyRecipe from './Recipe.js';
+import MyFooter from './footer.js';
+
 
 function App() {
   return (
     <div>
       <MyHeader />
-      <MyBody />
+      <MyImageSection />
+      <MyRecipe />
+      <MyFooter />
     </div>
-
   );
 }
 

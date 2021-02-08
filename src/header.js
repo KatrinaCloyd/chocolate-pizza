@@ -19,15 +19,16 @@ export default class MyHeader extends React.Component {
         <div className='header'>Delicious</div>
         <div>THE BEST FOOD BLOG ON THE WEB.</div>
         </div>
-        <div className='header-right'>
-        <img alt='fb' src={fb} />
-        <img alt='twitter' src={twitter} />
-        <img alt='google' src={google} />
-        <img alt='instagram' src={instagram} />
-        <img alt='flic' src={flic} />
-        <img alt='pinterest' src={pinterest} />
-        <img alt='wifi' src={wifi} />
-        <img alt='mail' src={mail} />
+        <div className='Button-List'>
+        <input type='image' alt='fb' src={fb} />
+        <input type='image' alt='twitter' src={twitter} />
+        <input type='image' alt='google' src={google} />
+        <input type='image' alt='instagram' src={instagram} />
+        <input type='image' alt='flic' src={flic} />
+        <input type='image' alt='pinterest' src={pinterest} />
+        <input type='image' alt='wifi' src={wifi} />
+        <input type='image' alt='mail' src={mail} />
+        <hr></hr>
         </div>
         </header>
         )
