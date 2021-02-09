@@ -7,7 +7,7 @@ import MyFooter from './footer.js';
 
 function App() {
   return (
-    <div>
+    <div className='main'>
       <MyHeader />
       <MyImageSection />
       <MyRecipe />
