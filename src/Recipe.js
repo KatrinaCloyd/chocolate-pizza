@@ -1,13 +1,14 @@
 import React from 'react';
 import { ingredientItems } from './IngredientList.js';
+import './recipe.css';
 
 export default class MyRecipe extends React.Component {
     render() {
         const ingList = ingredientItems.map(ing => <div>
-            <p>{ing.amount} {ing.name}</p>
+            <input type='checkbox' />{ing.amount} {ing.name}
         </div>
         );
-        return(
+        return (
             <div>
                 <div className="ingredients">
                     {ingList}
