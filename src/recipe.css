@@ -7,7 +7,11 @@
     max-height: 140px;
     padding: 25px;
 }
-input {
+.recipes {
     margin-left: 40px;
     margin-bottom: 5px;
 }
+
+.recipes[type=checkbox]:checked + label{
+    text-decoration: line-through;
+  }

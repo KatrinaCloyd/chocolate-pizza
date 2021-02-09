@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.legal-stuff{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 30px;
+}
+
+.pic{
+    width: 65px;
+    height: 65px;
+}
+
+.share-button{
+    color: white;
+    background-color: brown;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-top: 15px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.quote{
+    font-size: 14px;
+    margin: 2px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    margin: 15px;
+}
+
+h6{
+    margin: 0px;
+    color:gray;
+}

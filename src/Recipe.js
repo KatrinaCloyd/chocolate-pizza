@@ -5,7 +5,7 @@ import './recipe.css';
 export default class MyRecipe extends React.Component {
     render() {
         const ingList = ingredientItems.map(ing => <div>
-            <input type='checkbox' />{ing.amount} {ing.name}
+            <input className='recipes' type='checkbox' /><label>{ing.amount} {ing.name}</label>
         </div>
         );
         return (
